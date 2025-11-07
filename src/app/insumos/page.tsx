@@ -1,0 +1,1 @@
+export default function Insumos(){return(<div className='space-y-4'><h1 className='text-2xl font-bold text-center'>Búsqueda de Insumo</h1><div className='card'>Módulo de insumos (demo)</div></div>)}

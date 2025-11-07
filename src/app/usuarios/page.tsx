@@ -1,0 +1,1 @@
+export default function Usuarios(){return(<div className='space-y-4'><h1 className='text-2xl font-bold'>Usuarios</h1><div className='card'>Registro y lista (demo)</div></div>)}

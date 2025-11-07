@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function Home(){return(<div className='space-y-4'><h1 className='text-3xl font-bold'>Bienvenido</h1><p className='text-slate-300'>Accede al panel principal.</p><Link className='btn inline-block' href='/dashboard'>Abrir Dashboard</Link></div>) }

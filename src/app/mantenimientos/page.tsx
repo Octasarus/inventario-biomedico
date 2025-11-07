@@ -1,0 +1,1 @@
+export default function Mantenimientos(){return(<div className='space-y-4'><h1 className='text-2xl font-bold text-center'>Listado de Equipos en Mantenimiento</h1><div className='card'>Panel de mantenimientos (demo)</div></div>)}

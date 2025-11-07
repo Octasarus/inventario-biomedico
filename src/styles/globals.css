@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#0b1220;--panel:#0f172a;--card:#111827;--muted:#94a3b8;--text:#e5e7eb;--line:#1f2937;--primary:#60a5fa;--accent:#22d3ee;}
+html,body{height:100%}body{@apply bg-[#0a0f1e] text-[var(--text)]}
+.table th{@apply text-left bg-[#0b1c33] text-slate-200 border-b border-[#0e233e] px-3 py-2}
+.table td{@apply border-b border-[#0e233e] px-3 py-2}
+.badge{@apply rounded-md border border-[#163253] bg-[#0b1c33] text-slate-200 text-xs px-2 py-0.5}
+.btn{@apply rounded-xl border border-[#1f5fa9] bg-[#174b87] text-sky-50 px-3 py-2 hover:brightness-105}
+.card{@apply rounded-2xl border border-[#0e233e] p-4 shadow-xl}
